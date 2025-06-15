@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +11,35 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .hero-bg {
-            background-color: #003366; /* A deep blue for a professional, formal look */
+            background-color: #003366;
+            /* A deep blue for a professional, formal look */
             background-image: linear-gradient(135deg, #003366 0%, #0055a4 100%);
         }
+
         .form-container {
             transition: all 0.3s ease-in-out;
         }
+
         .form-container:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
-        .party-radio:checked + label {
+
+        .party-radio:checked+label {
             border-color: #0055a4;
             background-color: #e0f2fe;
             color: #003366;
             font-weight: 600;
         }
-        .party-radio:checked + label svg {
+
+        .party-radio:checked+label svg {
             display: block;
         }
     </style>
 </head>
+
 <body class="bg-gray-50 text-gray-800">
 
     <!-- Header Section -->
@@ -39,7 +47,8 @@
         <div class="container mx-auto px-6 py-8 text-center">
             <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">NSU Debate Club</h1>
             <h2 class="text-2xl md:text-4xl font-bold mt-2">Recruitment Drive: Election 2025</h2>
-            <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">Your Voice, Your Vote, Your Future. Join the legacy of critical thinking and powerful rhetoric.</p>
+            <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">Your Voice, Your Vote, Your Future. Join the legacy of
+                critical thinking and powerful rhetoric.</p>
         </div>
     </header>
 
@@ -49,38 +58,55 @@
         <!-- Process Explanation Section -->
         <section class="mb-16">
             <h3 class="text-3xl font-bold text-center mb-2 text-gray-900">The Recruitment Process</h3>
-            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Follow these simple steps to become a part of our team. We are recruiting for 3 Presiding Officers and 2 Polling Officers.</p>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Follow these simple steps to become a part of
+                our team. We are recruiting for 3 Presiding Officers and 2 Polling Officers.</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                 <!-- Step 1 -->
                 <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
                     <div class="text-blue-600 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
                     </div>
                     <h4 class="text-xl font-semibold mb-2">1. Register Online</h4>
-                    <p class="text-gray-600">You've already scanned the QR code! Now, just fill out the form below to get started.</p>
+                    <p class="text-gray-600">You've already scanned the QR code! Now, just fill out the form below to
+                        get started.</p>
                 </div>
                 <!-- Step 2 -->
                 <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                     <div class="text-blue-600 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V7a2 2 0 012-2h4M5 8h2m4 0h2" /></svg>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V7a2 2 0 012-2h4M5 8h2m4 0h2" />
+                        </svg>
                     </div>
                     <h4 class="text-xl font-semibold mb-2">2. Visit the Booth</h4>
-                    <p class="text-gray-600">After submitting, visit our Interaction Booth to meet the team and ask any questions.</p>
+                    <p class="text-gray-600">After submitting, visit our Interaction Booth to meet the team and ask any
+                        questions.</p>
                 </div>
                 <!-- Step 3 -->
                 <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                     <div class="text-blue-600 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                        </svg>
                     </div>
                     <h4 class="text-xl font-semibold mb-2">3. Cast Your Vote</h4>
-                    <p class="text-gray-600">Your final step is to cast a symbolic vote at our Polling Station to complete the experience!</p>
+                    <p class="text-gray-600">Your final step is to cast a symbolic vote at our Polling Station to
+                        complete the experience!</p>
                 </div>
             </div>
         </section>
 
         <!-- Registration Form Section -->
         <section id="registration-form">
-            <div class="bg-white p-8 md:p-12 rounded-xl shadow-lg border border-gray-200 form-container max-w-4xl mx-auto">
+            <div
+                class="bg-white p-8 md:p-12 rounded-xl shadow-lg border border-gray-200 form-container max-w-4xl mx-auto">
                 <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">Candidate Registration</h3>
                 <!-- 
                     IMPORTANT: Replace the "action" URL below with your Google Form's action URL.
@@ -96,75 +122,257 @@
                         <!-- Name Entry -->
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-                            <input type="text" id="name" name="entry.XXXXXXXXXX" placeholder="e.g., Jane Doe" required class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            <input type="text" id="name" name="entry.1139913686" placeholder="e.g., Jane Doe" required
+                                class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                         </div>
                         <!-- Email Submission -->
                         <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                            <input type="email" id="email" name="entry.XXXXXXXXXX" placeholder="e.g., jane.doe@northsouth.edu" required class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
+                                Address</label>
+                            <input type="email" id="email" name="entry.544443379"
+                                placeholder="e.g., jane.doe@northsouth.edu" required
+                                class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                         </div>
                         <!-- NSU ID -->
                         <div>
                             <label for="nsu_id" class="block text-sm font-medium text-gray-700 mb-1">NSU ID</label>
-                            <input type="text" id="nsu_id" name="entry.XXXXXXXXXX" placeholder="e.g., 201XXXXXXX" required pattern="\d{10}" class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
-                        </div>
-                        <!-- NSU Session -->
-                        <div>
-                            <label for="nsu_session" class="block text-sm font-medium text-gray-700 mb-1">NSU Admission Session</label>
-                            <input type="text" id="nsu_session" name="entry.XXXXXXXXXX" placeholder="e.g., Spring 2023" required class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            <input type="text" id="nsu_id" name="entry.1111890077" placeholder="e.g., 201XXXXXXX"
+                                required pattern="\d{10}"
+                                class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                         </div>
                         <!-- Department -->
                         <div class="md:col-span-2">
-                            <label for="department" class="block text-sm font-medium text-gray-700 mb-1">Department</label>
-                            <select id="department" name="entry.XXXXXXXXXX" required class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            <label for="department"
+                                class="block text-sm font-medium text-gray-700 mb-1">Department</label>
+                            <select id="department" name="entry.1885110944" required
+                                class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                                 <option value="" disabled selected>Select your department</option>
-                                <option value="School of Business and Economics (BBA, ECO, etc.)">School of Business and Economics (BBA, ECO, etc.)</option>
-                                <option value="Dept. of Electrical and Computer Engineering (CSE, EEE)">Dept. of Electrical and Computer Engineering (CSE, EEE)</option>
+                                <option value="School of Business and Economics (BBA, ECO, etc.)">School of Business and
+                                    Economics (BBA, ECO, etc.)</option>
+                                <option value="Dept. of Electrical and Computer Engineering (CSE, EEE)">Dept. of
+                                    Electrical and Computer Engineering (CSE, EEE)</option>
                                 <option value="Dept. of Architecture">Dept. of Architecture</option>
-                                <option value="Dept. of Civil and Environmental Engineering">Dept. of Civil and Environmental Engineering</option>
+                                <option value="Dept. of Civil and Environmental Engineering">Dept. of Civil and
+                                    Environmental Engineering</option>
                                 <option value="Dept. of Law">Dept. of Law</option>
-                                <option value="Dept. of English and Modern Languages">Dept. of English and Modern Languages</option>
-                                <option value="Dept. of Pharmaceutical Sciences">Dept. of Pharmaceutical Sciences</option>
+                                <option value="Dept. of English and Modern Languages">Dept. of English and Modern
+                                    Languages</option>
+                                <option value="Dept. of Pharmaceutical Sciences">Dept. of Pharmaceutical Sciences
+                                </option>
                                 <option value="Other">Other</option>
                             </select>
                         </div>
                         <!-- Questionnaire -->
                         <div class="md:col-span-2">
-                            <label for="questionnaire" class="block text-sm font-medium text-gray-700 mb-1">Why do you want to join the NSU Debate Club?</label>
-                            <textarea id="questionnaire" name="entry.XXXXXXXXXX" rows="4" placeholder="Share your motivation, interests, or any relevant experience." required class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"></textarea>
+                            <label for="questionnaire" class="block text-sm font-medium text-gray-700 mb-1">Why do you
+                                want to join the NSU Debate Club?</label>
+                            <textarea id="questionnaire" name="entry.192450253" rows="4"
+                                placeholder="Share your motivation, interests, or any relevant experience." required
+                                class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"></textarea>
                         </div>
-                        <!-- Amader Links -->
-                        <div class="md:col-span-2">
-                            <label for="links" class="block text-sm font-medium text-gray-700 mb-1">Portfolio/Social Media Link (Optional)</label>
-                            <input type="url" id="links" name="entry.XXXXXXXXXX" placeholder="https://your-portfolio-or-social-link.com" class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+
+                        <!-- Political Questions -->
+                        <div class="md:col-span-2 mt-6">
+                            <h4 class="text-lg font-semibold text-gray-800 mb-4">Debate Perspective Questions</h4>
+                            <p class="text-sm text-gray-600 mb-6">Please answer the following questions briefly to help
+                                us understand your perspectives.</p>
+
+                            <!-- Question 1 -->
+                            <div class="mb-4">
+                                <label for="q1" class="block text-sm font-medium text-gray-700 mb-1">What do you think
+                                    about the performance of the interim government? Kindly explain in one line.</label>
+                                <input type="text" id="q1" name="entry.126370611" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 2 -->
+                            <div class="mb-4">
+                                <label for="q2" class="block text-sm font-medium text-gray-700 mb-1">Do you think
+                                    Aoamileague will ever be able to comeback in the frontline of BD politics?</label>
+                                <input type="text" id="q2" name="entry.1785315955" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 3 -->
+                            <div class="mb-4">
+                                <label for="q3" class="block text-sm font-medium text-gray-700 mb-1">As religious
+                                    minorities face persecution during political instability, do you think the current
+                                    interim government failed to protect minority rights?</label>
+                                <input type="text" id="q3" name="entry.21658698" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 4 -->
+                            <div class="mb-4">
+                                <label for="q4" class="block text-sm font-medium text-gray-700 mb-1">What's your take on
+                                    abortion? Is it a moral thing to do or not?</label>
+                                <input type="text" id="q4" name="entry.415316011" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 5 -->
+                            <div class="mb-4">
+                                <label for="q5" class="block text-sm font-medium text-gray-700 mb-1">Do you think
+                                    marital rape should be a matter of concern?</label>
+                                <input type="text" id="q5" name="entry.805002866" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 6 -->
+                            <div class="mb-4">
+                                <label for="q6" class="block text-sm font-medium text-gray-700 mb-1">Should personal
+                                    data be considered a human right?</label>
+                                <input type="text" id="q6" name="entry.1435460556" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 7 -->
+                            <div class="mb-4">
+                                <label for="q7" class="block text-sm font-medium text-gray-700 mb-1">Is nationalism a
+                                    must for the citizens?</label>
+                                <input type="text" id="q7" name="entry.109327416" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 8 -->
+                            <div class="mb-4">
+                                <label for="q8" class="block text-sm font-medium text-gray-700 mb-1">Is forgiveness
+                                    always morally superior to revenge or punishment?</label>
+                                <input type="text" id="q8" name="entry.597005686" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 9 -->
+                            <div class="mb-4">
+                                <label for="q9" class="block text-sm font-medium text-gray-700 mb-1">Should a student of
+                                    any Bangladeshi university join mainstream politics?</label>
+                                <input type="text" id="q9" name="entry.2028989799" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 10 -->
+                            <div class="mb-4">
+                                <label for="q10" class="block text-sm font-medium text-gray-700 mb-1">Is the clubbing
+                                    culture of Bangladesh a bit toxic?</label>
+                                <input type="text" id="q10" name="entry.578004171" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 11 -->
+                            <div class="mb-4">
+                                <label for="q11" class="block text-sm font-medium text-gray-700 mb-1">Should BFF
+                                    (Bangladesh Football Federation) invest to bring more foreign lived Bangladeshi
+                                    players or should they invest in local tournaments and leagues?</label>
+                                <input type="text" id="q11" name="entry.394040692" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 12 -->
+                            <div class="mb-4">
+                                <label for="q12" class="block text-sm font-medium text-gray-700 mb-1">Asha has been a
+                                    female environmentalist for a long time. She is one of the most followed
+                                    environmentalists in the world. Should Asha as an environmentalist bring her own
+                                    child to this world?</label>
+                                <input type="text" id="q12" name="entry.622432171" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 13 -->
+                            <div class="mb-4">
+                                <label for="q13" class="block text-sm font-medium text-gray-700 mb-1">How do you look
+                                    into the issue of freedom of speech when it comes to religious affairs?</label>
+                                <input type="text" id="q13" name="entry.1453549023" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+
+                            <!-- Question 14 -->
+                            <div class="mb-4">
+                                <label for="q14" class="block text-sm font-medium text-gray-700 mb-1">What's your take
+                                    on NCP? Should they go alone in the upcoming election? If not, with whom should they
+                                    align with, BNP or Jamaat?</label>
+                                <input type="text" id="q14" name="entry.800159520" placeholder="Your answer"
+                                    class="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
                         </div>
 
                         <!-- Party Vote -->
                         <div class="md:col-span-2">
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Which party did you vote for? (Thematic Choice)</label>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Which party did you vote
+                                for?</label>
                             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                                 <!-- Party 1 -->
                                 <div>
-                                    <input type="radio" id="party1" name="entry.XXXXXXXXXX" value="The Orators" class="hidden party-radio" required>
-                                    <label for="party1" class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
-                                        The Orators
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                                    <input type="radio" id="party1" name="entry.1704272462"
+                                        value="Bangladesh Jamat-e-Islami" class="hidden party-radio" required>
+                                    <label for="party1"
+                                        class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
+                                        Bangladesh Jamat-e-Islami
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2"
+                                            viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
                                     </label>
                                 </div>
                                 <!-- Party 2 -->
                                 <div>
-                                    <input type="radio" id="party2" name="entry.XXXXXXXXXX" value="The Strategists" class="hidden party-radio">
-                                    <label for="party2" class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
-                                        The Strategists
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                                    <input type="radio" id="party2" name="entry.1704272462"
+                                        value="Bangladesh Nationalist Party (BNP)" class="hidden party-radio">
+                                    <label for="party2"
+                                        class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
+                                        Bangladesh Nationalist Party (BNP)
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2"
+                                            viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
                                     </label>
                                 </div>
                                 <!-- Party 3 -->
                                 <div>
-                                    <input type="radio" id="party3" name="entry.XXXXXXXXXX" value="The Visionaries" class="hidden party-radio">
-                                    <label for="party3" class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
-                                        The Visionaries
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                                    <input type="radio" id="party3" name="entry.1704272462"
+                                        value="National Citizen Party (NCP)" class="hidden party-radio">
+                                    <label for="party3"
+                                        class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
+                                        National Citizen Party (NCP)
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2"
+                                            viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </label>
+                                </div>
+                                <!-- Party 4 -->
+                                <div>
+                                    <input type="radio" id="party4" name="entry.1704272462"
+                                        value="Bangladesh Jatiyo Party (BJP)" class="hidden party-radio">
+                                    <label for="party4"
+                                        class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
+                                        Bangladesh Jatiyo Party (BJP)
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2"
+                                            viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </label>
+                                </div>
+                                <!-- Party 5 -->
+                                <div>
+                                    <input type="radio" id="party5" name="entry.1704272462"
+                                        value="Communist Party of Bangladesh (CPB)" class="hidden party-radio">
+                                    <label for="party5"
+                                        class="flex items-center justify-between p-4 border-2 border-gray-300 rounded-lg cursor-pointer transition hover:border-blue-500">
+                                        Communist Party of Bangladesh (CPB)
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden ml-2"
+                                            viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
                                     </label>
                                 </div>
                             </div>
@@ -173,7 +381,8 @@
                     </div>
                     <!-- Submit Button -->
                     <div class="mt-8 text-center">
-                        <button type="submit" class="w-full md:w-auto bg-blue-600 text-white font-bold py-3 px-12 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 transition-all duration-300 transform hover:scale-105">
+                        <button type="submit"
+                            class="w-full md:w-auto bg-blue-600 text-white font-bold py-3 px-12 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 transition-all duration-300 transform hover:scale-105">
                             Submit Application
                         </button>
                     </div>
@@ -182,7 +391,7 @@
         </section>
 
     </main>
-    
+
     <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-6 py-8 text-center">
@@ -193,15 +402,21 @@
 
     <!-- Success Message Modal -->
     <div id="success-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
-        <div class="bg-white rounded-lg shadow-2xl p-8 max-w-sm mx-auto text-center transform transition-all scale-95 opacity-0" id="success-modal-content">
+        <div class="bg-white rounded-lg shadow-2xl p-8 max-w-sm mx-auto text-center transform transition-all scale-95 opacity-0"
+            id="success-modal-content">
             <div class="text-green-500 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
                 </svg>
             </div>
             <h4 class="text-2xl font-bold text-gray-800 mb-2">Registration Successful!</h4>
-            <p class="text-gray-600 mb-6">Thank you for your application. Please proceed to the Interaction Booth for the next step.</p>
-            <button id="close-modal-btn" class="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
+            <p class="text-gray-600 mb-6">Thank you for your application. Please proceed to the Interaction Booth for
+                the next step.</p>
+            <button id="close-modal-btn"
+                class="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
                 Close
             </button>
         </div>
@@ -209,7 +424,7 @@
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const form = document.getElementById('recruitmentForm');
             const successModal = document.getElementById('success-modal');
             const successModalContent = document.getElementById('success-modal-content');
@@ -218,7 +433,7 @@
             const googleFormURL = 'https://docs.google.com/forms/d/e/1FAIpQLSfBK-qG4WPtV4BFT4Rw-aCD7rG5E10eZSMl5byhvGuzhxEICg/formResponse';
 
 
-            form.addEventListener('submit', function(event) {
+            form.addEventListener('submit', function (event) {
                 event.preventDefault(); // Prevent the default browser form submission
 
                 // --- Validation ---
@@ -231,13 +446,13 @@
                     if ((field.type === 'text' || field.type === 'email' || field.type === 'textarea' || field.type === 'select-one') && field.value.trim() === '') {
                         fieldIsValid = false;
                     } else if (field.type === 'radio') {
-                       const radioGroup = form.elements[field.name];
-                       if(!radioGroup.value) {
-                           fieldIsValid = false;
-                       }
+                        const radioGroup = form.elements[field.name];
+                        if (!radioGroup.value) {
+                            fieldIsValid = false;
+                        }
                     }
 
-                    if(!fieldIsValid) {
+                    if (!fieldIsValid) {
                         isValid = false;
                         field.classList.add('border-red-500');
                         if (!firstInvalidField) firstInvalidField = field;
@@ -245,7 +460,7 @@
                         field.classList.remove('border-red-500');
                     }
                 });
-                
+
                 if (isValid) {
                     // --- AJAX Submission to Google Forms ---
                     const formData = new FormData(form);
@@ -265,7 +480,7 @@
                     setTimeout(() => {
                         successModalContent.classList.remove('scale-95', 'opacity-0');
                     }, 10);
-                    
+
                     form.reset();
                     requiredFields.forEach(field => field.classList.remove('border-red-500'));
 
@@ -284,9 +499,9 @@
                     successModal.classList.add('hidden');
                 }, 300);
             }
-            
+
             closeModalBtn.addEventListener('click', closeModal);
-            successModal.addEventListener('click', function(event) {
+            successModal.addEventListener('click', function (event) {
                 if (event.target === successModal) {
                     closeModal();
                 }
@@ -295,4 +510,5 @@
     </script>
 
 </body>
+
 </html>
