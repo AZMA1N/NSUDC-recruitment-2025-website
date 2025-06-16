@@ -346,16 +346,50 @@
     <!-- Footer -->
     <footer class="bg-[#142147] text-white mt-16">
         <div class="container mx-auto px-6 py-8">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-6 md:mb-0 flex items-center">
+            <!-- Mobile Layout -->
+            <div class="md:hidden">
+                <!-- Logo and title centered -->
+                <div class="text-center mb-6">
+                    <img src="nsudc-logo.png" alt="NSUDC Logo" class="h-16 mx-auto mb-2">
+                    <p class="text-lg font-bold">NSU Debate Club</p>
+                </div>
+                
+                <!-- Social icons in a vertical stack -->
+                <div class="space-y-3 mb-6">
+                    <a href="https://www.facebook.com/NSUDC93" target="_blank" class="flex items-center justify-center text-gray-300 hover:text-white p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mr-2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        <span class="text-sm">Facebook</span>
+                    </a>
+                    <a href="https://www.linkedin.com/company/nsudc/" target="_blank" class="flex items-center justify-center text-gray-300 hover:text-white p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mr-2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <span class="text-sm">LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/nsudc" target="_blank" class="flex items-center justify-center text-gray-300 hover:text-white p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mr-2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <span class="text-sm">Instagram</span>
+                    </a>
+                    <a href="mailto:debate.club@northsouth.edu" class="flex items-center justify-center text-gray-300 hover:text-white p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mr-2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <span class="text-sm">Email Us</span>
+                    </a>
+                </div>
+                
+                <!-- NSU Logo centered -->
+                <div class="text-center mb-6">
+                    <img src="nsu-logo-small.png" alt="NSU Logo" class="h-12 mx-auto">
+                </div>
+            </div>
+
+            <!-- Desktop Layout -->
+            <div class="hidden md:flex flex-row justify-between items-center">
+                <div class="flex items-center">
                     <img src="nsudc-logo.png" alt="NSUDC Logo" class="h-20 mr-4">
                     <p class="text-xl font-bold">NSU Debate Club</p>
                 </div>
-                <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 items-center justify-center w-full">
+                <div class="flex flex-row space-x-6 items-center">
                     <a href="https://www.facebook.com/NSUDC93" target="_blank" class="flex items-center text-gray-300 hover:text-white social-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                     </a>
-                    <!-- LinkedIn -->
                     <a href="https://www.linkedin.com/company/nsudc/" target="_blank" class="flex items-center text-gray-300 hover:text-white social-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
                     </a>
@@ -364,12 +398,14 @@
                     </a>
                     <a href="mailto:debate.club@northsouth.edu" class="flex items-center text-gray-300 hover:text-white social-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8 mr-2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                
                     </a>
                 </div>
-                <div class="mt-6 md:mt-0">
+                <div>
                     <img src="nsu-logo-small.png" alt="NSU Logo" class="h-20">
                 </div>
             </div>
+            
             <div class="border-t border-gray-700 mt-8 pt-6 text-center">
                 <p>&copy; 2025 NSU Debate Club. All Rights Reserved.</p>
             </div>
@@ -464,6 +500,7 @@
                     console.log('Form is invalid. Please fill all required fields.');
                     if (firstInvalidField) {
                         firstInvalidField.focus();
+                    
                     }
                 }
             });
